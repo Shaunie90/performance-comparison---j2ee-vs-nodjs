@@ -1,0 +1,20 @@
+CREATE TABLE appstore_games (
+     url VARCHAR(2083) NOT NULL,
+    id INT NOT NULL, 
+    name_of VARCHAR(255) NOT NULL,
+     subtitle VARCHAR(255) NOT NULL,
+     icon_url VARCHAR(2083) NOT NULL, 
+     avg_user_rating DOUBLE NOT NULL,
+      user_rating_count INT NOT NULL,
+      price DOUBLE NOT NULL,
+       inapp_purchases DOUBLE NOT NULL, 
+    description TEXT NOT NULL,
+     developer VARCHAR(255) NOT NULL,
+      age_rating VARCHAR(255) NOT NULL,
+      languages  VARCHAR(255) NOT NULL,
+          size INT NOT NULL, 
+    genre VARCHAR(255) NOT NULL,
+     genres VARCHAR(255) NOT NULL,
+      release_date DATE NOT NULL,
+     current_date DATE NOT NULL
+       );
